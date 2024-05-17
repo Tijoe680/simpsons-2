@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;                                      /*base du lien*/
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(255, 255, 0, 0.692);                /*arriere plan*/
+    size: 500px;
+}
+
+#wrapper{
+    width: 80%;
+    margin: 0 auto;                                               /*taille parent*/
+    background-color: white;
+}
+.blue, a, footer{
+    background-color: blue;
+    color: white;                                               /*couleur texte et arriere plan texte*/
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    display: ruby;
+    
+}                                                                                /* li = lien de la page */  
+header{
+    margin-top: 1px;
+    margin-bottom: 30px;
+    object-fit: contain 
+}
+h2{
+    display: block;
+    font-size: 5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bolder;
+}
+img{
+    width: 100%;
+  
+}
+       
+.max {
+     max-width: 500%;
+     width: 100% ;
+     margin-bottom: 20px;   
+}
+
+
+.matt {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.red{
+    width: 100%; 
+    padding: 15px;  
+    background: blue;
+    margin-block-start: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+article{
+    width: 72%;
+
+}
+aside{
+    width: 25%;
+    padding: 10px; 
+  
+
+}
+footer{
+    margin-top: 15px;
+    height: 25px;    
+}
+h1{
+    color: rgb(223, 185, 17);
+    padding-left: 6px;
+}
+.test{
+    display: flex;                                                  /*rendre la boite compléte flex et pouvoir modifier l'emplacement et les dimensions des images et des textes*/
+    justify-content: space-around;
+    height: 430px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.crop{
+    width: 33%;
+    height: 300px;
+
+}
+
+
+#trait_dessus{
+    border-top: 0px solid #ffffff;
+    width : 1043px;
+    margin-top: -4px;
+    border-bottom-style: dashed;
+} 
+  
+p{
+    text-align: justify;
+}
+
+
+header{
+    border-bottom: black 2px dashed;
+}
